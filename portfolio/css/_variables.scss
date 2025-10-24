@@ -1,0 +1,23 @@
+// proměnné
+
+:root {
+    --text-color: #fff;
+    --color: #2178e2;
+    --bg-color: #2d2d2e;
+    --first: #fff;
+    --second: #000;
+    --mob-color: #363636;
+    --box-bg: #333;
+    --clr-bg: #3e3e3e;
+    --place-clr: #afafaf;
+}
+body.dark-mode {
+    --text-color: #222;
+    --bg-color: #f2f2f2;
+    --first: #222;
+    --second: #fff;
+    --mob-color: #eae6e6;
+    --box-bg: #e5e5e5;
+    --clr-bg: #e5e5e5;
+    --place-clr: #6b6b6b;
+}

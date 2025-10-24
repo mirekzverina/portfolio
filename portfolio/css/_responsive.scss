@@ -1,0 +1,296 @@
+@media screen and (max-width: 1280px) {
+    .home {
+        .home-info {
+            .left {
+                h1 {
+                    font-size: 4em;
+                }
+            }
+
+            .right {
+                .profile {
+                    img {
+                        width: 400px;
+                        height: 400px;
+                    }
+                }
+            }
+        }
+    }
+
+    .services {
+        .services-box {
+            justify-content: center;
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        section {
+            padding: 8rem 5% 2rem;
+        }
+    }
+
+    header {
+        background: var(--mob-color);
+        position: sticky;
+        top: 0;
+        padding: 0 5%;
+        z-index: 9;
+
+        nav {
+            .list-darkmode-menu {
+                ul {
+                    position: fixed;
+                    top: 89px;
+                    left: -100%;
+                    max-width: 60%;
+                    width: 100%;
+                    height: 100vh;
+                    background: var(--mob-color);
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                    flex-direction: column;
+                    gap: 30px;
+                    padding: 2rem 5% 0;
+                    transition: 0.3 ease;
+
+                    li {
+                        a {
+                            font-size: 22px;
+                        }
+                    }
+
+                    &.active {
+                        left: 0%;
+                    }
+                }
+
+                .hamburger {
+                    display: block;
+                }
+            }
+        }
+    }
+
+    .home {
+        padding: 8rem 5% 2rem;
+
+        .home-info {
+            flex-direction: column-reverse;
+
+            .left {
+                padding-top: 50px;
+
+                p {
+                    width: 100%;
+                }
+
+                .social {
+                    display: none;
+                }
+            }
+
+            .right {
+                .profile {
+                    margin-top: 25px;
+
+                    img {
+                        width: 375px;
+                        height: 375px;
+
+                        &:hover {
+                            box-shadow: 0 0 60px var(--color);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .about {
+        .about-wrapper {
+            flex-direction: column-reverse;
+
+            .about-left {
+                .about-img {
+                    img {
+                        width: 375px;
+                        height: 375px;
+
+                        &:hover {
+                            box-shadow: 0 0 60px var(--color);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    header {
+        nav {
+            .list-darkmode-menu {
+                ul {
+                    li {
+                        a {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .home {
+        .home-info {
+            .left {
+                h1 {
+                    font-size: 3.6em;
+                }
+
+                h4 {
+                    font-size: 1.8em;
+                }
+
+                p {
+                    font-size: 14px;
+                }
+            }
+
+            .right {
+                .profile {
+                    img {
+                        width: 350px;
+                        height: 350px;
+                    }
+                }
+            }
+        }
+    }
+
+    .services {
+        .services-box {
+            .box {
+                width: 340px;
+            }
+        }
+    }
+
+    .portfolio {
+        .portfolio-wrapper {
+            .portfolio-box {
+                width: 340px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    header {
+        nav {
+            .logo {
+                a {
+                    font-size: 28px;
+                }
+            }
+        }
+    }
+
+    .home {
+        .home-info {
+            .left {
+                h3 {
+                    font-size: 1.8em;
+                }
+
+                h1 {
+                    font-size: 2.5em;
+                }
+
+                h4 {
+                    font-size: 1.4em;
+                }
+
+                p {
+                    font-size: 14px;
+                }
+            }
+
+            .right {
+                .profile {
+                    img {
+                        width: 280px;
+                        height: 280px;
+                    }
+                }
+            }
+        }
+    }
+
+    .about {
+        .about-wrapper {
+            .about-left {
+                .about-img {
+                    img {
+                        width: 280px;
+                        height: 280px;
+                    }
+                }
+            }
+
+            .about-right {
+                .about-info {
+                    h2 {
+                        font-size: 2.5em;
+                    }
+                }
+            }
+        }
+    }
+
+    .services {
+        h2 {
+            font-size: 2.5em;
+        }
+    }
+
+    .portfolio {
+        h2 {
+            font-size: 2.5em;
+        }
+    }
+
+    .contact {
+        h2 {
+            font-size: 2.5em;
+        }
+
+        form {
+            .input-box {
+                input {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    footer {
+        padding: 1.2em 5%;
+
+        .footer-wrapper {
+            flex-direction: column-reverse;
+            text-align: center;
+
+            .footer-info {
+                line-height: 1.5em;
+            }
+
+            .iconTop {
+                margin-bottom: 1em;
+            }
+        }
+    }
+}

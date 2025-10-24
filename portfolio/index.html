@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- import font-awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        />
+        <!-- import custom CSS -->
+        <link rel="stylesheet" href="css/styles.css" />
+        <title>Mirek's web</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <nav>
+                    <div class="logo">
+                        <a href="#"><span>Mirek</span> Zvěřina</a>
+                    </div>
+                    <div class="list-darkmode-menu">
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                        <label for="darkModeButton" class="mode">
+                            <input
+                                type="checkbox"
+                                checked="checked"
+                                id="darkModeButton"
+                            />
+                            <i class="fa-solid fa-sun"></i>
+                            <i class="fa-solid fa-moon"></i>
+                        </label>
+                        <button class="hamburger">
+                            <div class="bar"></div>
+                        </button>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <section id="home" class="home">
+            <div class="container">
+                <div class="home-info">
+                    <div class="left">
+                        <h3>Hello, I'm</h3>
+                        <h1>Mirek Zvěřina</h1>
+                        <h4>And I'm a <span class="multiple"></span></h4>
+                        <p>
+                            Hi! I'm Mirek Zvěřina, a passionate front-end
+                            developer with a designer's mindset creating
+                            interactive web experiences using HTML, CSS and
+                            JavaScript.
+                        </p>
+                        <div class="social">
+                            <a
+                                href="https://www.linkedin.com/in/miroslavzverina/"
+                                target="_blank"
+                                ><i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                            <a
+                                href="https://www.instagram.com/zverinamiroslav"
+                                target="_blank"
+                                ><i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="btn">
+                            <a
+                                href="downloads/cv-miroslav_zverina.pdf"
+                                target="_blank"
+                            >
+                                <button>Download CV</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="profile">
+                            <img src="images/profile.png" alt="profile" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-wrapper">
+                    <div class="about-left">
+                        <div class="about-img">
+                            <img src="images/profile.png" alt="profile" />
+                        </div>
+                    </div>
+                    <div class="about-right">
+                        <div class="about-info">
+                            <h2>About <span>Me</span></h2>
+                            <h3>Front-End Developer</h3>
+                            <p>
+                                I’m a passionate front-end developer with a
+                                background in IT, focused on web development and
+                                design. During my studies, I gained experience
+                                with technologies like HTML5, CSS3 (Sass),
+                                JavaScript, and basic Vue.js, as well as tools
+                                such as Figma, Git, GitHub, and WordPress. I’ve
+                                also worked with Shoptet for e-commerce
+                                solutions. I enjoy creating user-friendly,
+                                responsive websites and constantly strive to
+                                improve my skills and stay up to date with
+                                modern web technologies.
+                            </p>
+                            <a href="#contact">
+                                <button>Let's work together</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2>My <span>Services</span></h2>
+                <div class="services-box">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3>Web Development</h3>
+                        <p>
+                            Let’s create a corporate website, e&#8209;commerce
+                            store, or a custom application tailored to the needs
+                            of your business, designed to look great on all
+                            devices.
+                        </p>
+                        <div class="services-btn">
+                            <a href="#contact">
+                                <button>Sounds good!</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa-solid fa-pen-fancy"></i>
+                        </div>
+
+                        <h3>Graphic Design</h3>
+                        <p>
+                            Would you like to create a completely new design for
+                            your website, or redesign your existing one with a
+                            fresh solution? Let’s get started!
+                        </p>
+                        <div class="services-btn">
+                            <a href="#contact">
+                                <button>Sounds good!</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa-solid fa-chart-column"></i>
+                        </div>
+
+                        <h3>Web Maintenance</h3>
+                        <p>
+                            Do you want to create more content for your website,
+                            write new articles, track visitor statistics, or
+                            maintain your website long-term?
+                        </p>
+                        <div class="services-btn">
+                            <a href="#contact">
+                                <button>Sounds good!</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <h2>Websites using<span> HTML, Sass and JavaSript</span></h2>
+                <div class="portfolio-wrapper coded-websites">
+                    <div class="portfolio-box">
+                        <img
+                            src="images/projects/coded-projects/portfolio.png"
+                            alt="portfolio"
+                        />
+                        <div class="portfolio-info">
+                            <h4>Portfolio</h4>
+                            <p>
+                                A fully responsive personal portfolio built with
+                                HTML, Sass, and JavaScript, featuring a dark and
+                                light mode toggle
+                            </p>
+                            <a href="#"> Open website</a>
+                        </div>
+                    </div>
+                </div>
+                <h2>Websites on <span>WordPress</span></h2>
+                <div class="portfolio-wrapper">
+                    <div class="portfolio-box">
+                        <img
+                            src="images/projects/wordpress/e-invent.png"
+                            alt="portfolio"
+                        />
+                        <div class="portfolio-info">
+                            <h4>E-invent.eu</h4>
+                            <p>
+                                A main company website that was created on
+                                WordPress platform, using plugins and
+                                multi&#8209;language option
+                            </p>
+                            <a href="https://www.e-invent.eu/" target="_blank">
+                                Open website</a
+                            >
+                        </div>
+                    </div>
+                    <div class="portfolio-box">
+                        <img
+                            src="images/projects/wordpress/zs-hazlov.png"
+                            alt="portfolio"
+                        />
+                        <div class="portfolio-info">
+                            <h4>ZŠ Hazlov</h4>
+                            <p>
+                                A website for an elementary school, created on
+                                WordPress platform with a lot of articles, tabs
+                                and tables
+                            </p>
+                            <a href="https://www.zshazlov.cz/" target="_blank"
+                                >Open website</a
+                            >
+                        </div>
+                    </div>
+                    <div class="portfolio-box">
+                        <img
+                            src="images/projects/wordpress/ms-duhovy-svet.png"
+                            alt="portfolio"
+                        />
+                        <div class="portfolio-info">
+                            <h4>MŠ Duhový svět</h4>
+                            <p>
+                                A private kindergarten and elementary school
+                                website based on WordPress with carousel and
+                                maps feature
+                            </p>
+                            <a
+                                href="https://www.msduhovysvet.cz/"
+                                target="_blank"
+                                >Open website</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <h2>E-commerce Stores on <span>Shoptet</span></h2>
+                <div class="portfolio-wrapper">
+                    <div class="portfolio-box">
+                        <img
+                            src="images/projects/e-commerce-stores/rituals.png"
+                            alt="portfolio"
+                        />
+                        <div class="portfolio-info">
+                            <h4>Rituals</h4>
+                            <p>
+                                An e-commerce store for a leading brand
+                                specializing in body care products for both men
+                                and women
+                            </p>
+                            <a href="https://www.rituals.cz/" target="_blank"
+                                >Open website</a
+                            >
+                        </div>
+                    </div>
+                    <div class="portfolio-box">
+                        <img
+                            src="images/projects/e-commerce-stores/neio.png"
+                            alt="portfolio"
+                        />
+                        <div class="portfolio-info">
+                            <h4>Neio</h4>
+                            <p>
+                                An e-commerce site specializing in cosmetics and
+                                nutritional supplements mainly for women
+                            </p>
+                            <a href="https://www.ne-io.com/" target="_blank"
+                                >Open website</a
+                            >
+                        </div>
+                    </div>
+                    <div class="portfolio-box">
+                        <img
+                            src="images/projects/e-commerce-stores/meesenburg.png"
+                            alt="portfolio"
+                        />
+                        <div class="portfolio-info">
+                            <h4>Meesenburg</h4>
+                            <p>
+                                An e-commerce site focused on essential
+                                household tools and garden equipment and
+                                products
+                            </p>
+                            <a href="https://www.meesenburg.cz/" target="_blank"
+                                >Open website</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <h2>Samples of <span>CSS / Sass</span></h2>
+                <div class="portfolio-wrapper">
+                    <div class="portfolio-box">
+                        <img
+                            src="images/projects/coming-soon.jpg"
+                            alt="portfolio"
+                        />
+                        <div class="portfolio-info">
+                            <h4>CSS Sample 1</h4>
+                            <p>Text</p>
+                            <a href="#">Open sample</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-box">
+                        <img
+                            src="images/projects/coming-soon.jpg"
+                            alt="portfolio"
+                        />
+                        <div class="portfolio-info">
+                            <h4>CSS sample 2</h4>
+                            <p>Text</p>
+                            <a href="#">Open sample</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-box">
+                        <img
+                            src="images/projects/coming-soon.jpg"
+                            alt="portfolio"
+                        />
+                        <div class="portfolio-info">
+                            <h4>CSS sample 3</h4>
+                            <p>Text</p>
+                            <a href="#">Open sample</a>
+                        </div>
+                    </div>
+                </div>
+                <h2>Samples of <span>JavaScript</span></h2>
+                <div class="portfolio-wrapper">
+                    <div class="portfolio-box">
+                        <img
+                            src="images/projects/coming-soon.jpg"
+                            alt="portfolio"
+                        />
+                        <div class="portfolio-info">
+                            <h4>CSS Sample 1</h4>
+                            <p>Text</p>
+                            <a href="#">Open sample</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-box">
+                        <img
+                            src="images/projects/coming-soon.jpg"
+                            alt="portfolio"
+                        />
+                        <div class="portfolio-info">
+                            <h4>CSS sample 2</h4>
+                            <p>Text</p>
+                            <a href="#">Open sample</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-box">
+                        <img
+                            src="images/projects/coming-soon.jpg"
+                            alt="portfolio"
+                        />
+                        <div class="portfolio-info">
+                            <h4>CSS sample 3</h4>
+                            <p>Text</p>
+                            <a href="#">Open sample</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container"></div>
+            <h2>Contact <span>Me!</span></h2>
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name" />
+                    <input type="email" placeholder="Email Address" />
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile Number" />
+                    <input type="text" placeholder="Email Subject" />
+                </div>
+                <textarea
+                    name=""
+                    id=""
+                    cols="30"
+                    rows="10"
+                    placeholder="Your Message"
+                ></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-wrapper">
+                    <div class="footer-info">
+                        <p>
+                            Copyright &copy; 2024 by Mirek Zvěřina | All Rights
+                            Reserved
+                        </p>
+                    </div>
+                    <div class="iconTop">
+                        <a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- import typing animation library-->
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <!-- import custom JS -->
+        <script src="js/app.js"></script>
+    </body>
+</html>
